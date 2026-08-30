@@ -1,0 +1,20 @@
+# StackHost configuration file
+# Version: 2.0.0
+
+user:
+  name: "Harkirat Pal"
+  github: "your-github-username"
+
+runtime:
+  image: "python:3.11-slim"
+
+commands:
+  package: "build-essential"
+  build:
+    - "pip install --upgrade pip"
+    - "pip install -r requirements.txt"
+  start: "python3 Untitled-1.py"
+
+repository:
+  branch: "main"
+  auto_deploy: true
