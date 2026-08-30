@@ -2,8 +2,8 @@
 # Version: 2.0.0
 
 user:
-  name: "Harkirat Pal"
-  github: "your-github-username"
+  name: "Harkirat"
+  github: "harkirat2006"
 
 runtime:
   image: "python:3.11-slim"
