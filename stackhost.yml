@@ -8,8 +8,6 @@ user:
 runtime:
   image: "python:3.11-slim"
 
-commands:
-  package: "build-essential"
   build:
     - "pip install --upgrade pip"
     - "pip install -r requirements.txt"
