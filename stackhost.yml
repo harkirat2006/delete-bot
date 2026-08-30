@@ -6,14 +6,13 @@ user:
   github: "harkirat2006"
 
 runtime:
-  image: "python:3.11-slim"
+      -"python:3.11-slim"
 
 commands:
-     start: "python3 Untitled-1.py"
-
-  build:
-    - "pip install --upgrade pip"
-    - "pip install -r requirements.txt"
+      build:
+         - "pip install --upgrade pip"
+         - "pip install -r requirements.txt"
+      start: "python3 Untitled-1.py"
 
 repository:
   branch: "main"
