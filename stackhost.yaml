@@ -6,7 +6,7 @@ user:
   github: "harkirat2006"
 
 runtime:
-      -"python:3.11-slim"
+    image: "python:3.11-slim"
 
 commands:
       build:
