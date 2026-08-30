@@ -17,3 +17,7 @@ commands:
 repository:
   branch: "main"
   auto_deploy: true
+
+env:
+   -TELEGRAM_BOT_TOKEN=7979983203:AAEI2vAUEpAG89m87HTk4XNGw-tWMzYPdQo
+   -MONGODB_URI=mongodb+srv://harkirat206s_db_user:RPX2aZkgabAt2bEK@cluster0.s8y2our.mongodb.net
